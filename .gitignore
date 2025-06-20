@@ -1,0 +1,32 @@
+# Laravel specific
+/laravel-backend/vendor/
+/laravel-backend/node_modules/
+/laravel-backend/.env
+/laravel-backend/public/storage
+/laravel-backend/storage/*.key
+/laravel-backend/bootstrap/cache/*.php
+
+# Python specific
+/python-backend/__pycache__/
+/python-backend/.venv/
+/python-backend/.env
+/python-backend/data/*.db # SQLite database file if used
+
+# Vue specific
+/vue-frontend/node_modules/
+/vue-frontend/dist/
+/vue-frontend/.env.local
+
+# Docker
+docker-compose.override.yml
+
+# IDE-specific files
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
