@@ -1,0 +1,7 @@
+fastapi[all]
+uvicorn
+pandas
+scikit-learn
+SQLAlchemy
+databases[sqlite]
+python-dotenv
