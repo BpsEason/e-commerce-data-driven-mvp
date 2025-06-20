@@ -1,9 +1,0 @@
-# e-commerce-data-driven-mvp/fastapi-data-service/requirements.txt
-# FastAPI 應用程式所需的 Python 包列表
-
-fastapi==0.111.0 # FastAPI 框架
-uvicorn==0.30.1 # ASGI 服務器，用於運行 FastAPI 應用
-pandas==2.2.2 # 數據分析和操作庫
-numpy==1.26.4 # 科學計算庫，提供高性能數組操作
-scikit-learn==1.5.0 # 如果需要更複雜的機器學習模型，例如協同過濾
-requests==2.32.3 # 用於在 FastAPI 中發送 HTTP 請求 (如果需要調用外部 API，例如 Laravel)
